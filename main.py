@@ -2,7 +2,7 @@ import asyncio
 from aiogram import Bot, Dispatcher
 from handlers import router
 
-bot = Bot(token='7908963405:AAHAjdYjtHyxD0NqEFTLxTvLkRHPwiZNjSs')
+bot = Bot(token=' ')
 dp = Dispatcher()
 
 async def main():

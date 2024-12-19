@@ -108,6 +108,3 @@ async def get_perfumes(conn, gender=None, group=None, occasion=None, season=None
     '''
     results = await conn.fetch(query, gender, group, occasion, season, price_range, notes)
     return [fragrance['name'] for fragrance in results]
-
-    results = await conn.fetch(query, gender, group, occasion, season, price_range, notes)
-    return [fragrance['name'] for fragrance in results]
